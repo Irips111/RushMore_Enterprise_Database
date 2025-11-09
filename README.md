@@ -1,0 +1,2 @@
+# RushMore_Enterprise_Database
+A cloud-based PostgreSQL database system for RushMore Pizzeria, designed to replace a JSON-based order system. The project includes data modeling, cloud deployment on Azure, and Python scripts using Faker to generate realistic test data for analytics and performance testing.
