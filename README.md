@@ -37,12 +37,12 @@ The database schema consists of the following tables:
 
 ## Project Files
 
-'ERD for rushmore': ERD file showing the fully normalised PostgreSQL schema in (3NF)
-'create_table':	SQL script showing the create tables query
-'config.yaml':	Database connection configuration file
-'populate.py': Python script for data population
-'Analysis_queries':	Contains SQL scripts for business analysis
-'Requirements.txt':	Contains all foreign dependencies installed to run the python script
+- 'ERD for rushmore': ERD file showing the fully normalised PostgreSQL schema in (3NF)
+- 'create_table':	SQL script showing the create tables query
+- 'config.yaml':	Database connection configuration file
+- 'populate.py': Python script for data population
+- 'Analysis_queries':	Contains SQL scripts for business analysis
+- 'Requirements.txt':	Contains all foreign dependencies installed to run the python script
 
 ## Designing and Populating the RushMore Pizzeria Database
 To design an efficient database system for RushMore Pizzeria, I began by conducting a thorough analysis of their business operations, including multiple customers, menu items, ingredients, and the way orders are placed. From that, I designed a normalized relational schema using draw.io to create an Entity-Relationship Diagram (ERD). The database structure included several key tables: Stores, Customers, Ingredients, Menu_Items, Item_Ingredients, Orders, and Order_Items. Each table was carefully modeled with primary and foreign keys to ensure data integrity and efficiency.
